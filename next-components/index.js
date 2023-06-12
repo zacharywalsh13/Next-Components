@@ -1,1 +1,3 @@
-export { default as MyComponent } from './components/MyComponent';
+//Buttons
+export { default as KitButton } from './components/Button/index';
+

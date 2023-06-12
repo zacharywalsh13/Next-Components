@@ -1,7 +1,7 @@
 {
   "name": "next-components-kit",
   "types": "index.d.ts",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "private": false,
   "scripts": {
     "dev": "next dev",
@@ -29,7 +29,8 @@
   "devDependencies": {
     "@babel/cli": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
-    "@babel/preset-react": "^7.22.5"
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5"
   },
   "repository": {
     "type": "git",

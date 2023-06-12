@@ -1,11 +1,10 @@
 import React from 'react'
-import MyComponent from '../components/MyComponent'
-
+import KitButton from '../components/Button/index'
 export default function Home() {
   return (
     <div>
       <h1>My Next.js App</h1>
-      <MyComponent />
+      <KitButton />
     </div>
   )
 }
