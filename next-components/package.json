@@ -1,10 +1,11 @@
 {
   "name": "next-components-kit",
   "types": "index.d.ts",
-  "version": "0.1.12",
+  "version": "0.1.20",
   "private": false,
   "main": "dist/index.js",
   "scripts": {
+    "dev": "next dev",
     "build": "babel ./src --out-dir ./dist --copy-files --no-copy-ignored"
   },
   "dependencies": {
@@ -13,8 +14,11 @@
     "@types/react": "18.2.11",
     "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
+    "babel": "^6.23.0",
+    "babel-loader": "^9.1.2",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.5",
+    "loader": "^2.1.1",
     "next": "13.4.5",
     "postcss": "8.4.24",
     "react": "18.2.0",

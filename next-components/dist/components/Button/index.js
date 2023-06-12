@@ -7,7 +7,12 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 var KitButton = function KitButton(_ref) {
+  var _colorMapping;
   var _ref$ButtonText = _ref.ButtonText,
     ButtonText = _ref$ButtonText === void 0 ? "Submit" : _ref$ButtonText,
     _ref$onClick = _ref.onClick,
@@ -22,12 +27,12 @@ var KitButton = function KitButton(_ref) {
     radius = _ref$radius === void 0 ? "full" : _ref$radius,
     _ref$shadow = _ref.shadow,
     shadow = _ref$shadow === void 0 ? "medium" : _ref$shadow;
-  var colorMapping = {
+  var colorMapping = (_colorMapping = {
     // Blues
-    lightBlue: "bg-light-blue-500 hover:bg-light-blue-700",
+    sky: "bg-sky-500 hover:bg-sky-700",
     blue: "bg-blue-500 hover:bg-blue-700",
     indigo: "bg-indigo-500 hover:bg-indigo-700",
-    darkBlue: "bg-dark-blue-500 hover:bg-dark-blue-700",
+    slate: "bg-slate-500 hover:bg-slate-700",
     // Reds
     red: "bg-red-500 hover:bg-red-700",
     rose: "bg-rose-500 hover:bg-rose-700",
@@ -43,16 +48,8 @@ var KitButton = function KitButton(_ref) {
     violet: "bg-violet-500 hover:bg-violet-700",
     fuchsia: "bg-fuchsia-500 hover:bg-fuchsia-700",
     // Greys
-    gray: "bg-gray-500 hover:bg-gray-700",
-    coolGray: "bg-cool-gray-500 hover:bg-cool-gray-700",
-    trueGray: "bg-true-gray-500 hover:bg-true-gray-700",
-    warmGray: "bg-warm-gray-500 hover:bg-warm-gray-700",
-    // Other colors
-    pink: "bg-pink-500 hover:bg-pink-700",
-    lime: "bg-lime-500 hover:bg-lime-700",
-    cyan: "bg-cyan-500 hover:bg-cyan-700",
-    emerald: "bg-emerald-500 hover:bg-emerald-700"
-  };
+    gray: "bg-gray-500 hover:bg-gray-700"
+  }, _defineProperty(_colorMapping, "gray", "bg-gray-500 hover:bg-gray-700"), _defineProperty(_colorMapping, "neutral", "bg-neutral-500 hover:bg-neutral-700"), _defineProperty(_colorMapping, "stone", "bg-stone-500 hover:bg-stone-700"), _defineProperty(_colorMapping, "pink", "bg-pink-500 hover:bg-pink-700"), _defineProperty(_colorMapping, "lime", "bg-lime-500 hover:bg-lime-700"), _defineProperty(_colorMapping, "cyan", "bg-cyan-500 hover:bg-cyan-700"), _defineProperty(_colorMapping, "emerald", "bg-emerald-500 hover:bg-emerald-700"), _colorMapping);
   var sizeMapping = {
     extraSmall: "py-1 px-2 text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl",
     small: "py-1 px-2 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl",

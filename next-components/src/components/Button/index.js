@@ -12,42 +12,43 @@ const KitButton = ({
   }) => {
 
   const colorMapping = {
-    // Blues
-    lightBlue: "bg-light-blue-500 hover:bg-light-blue-700",
-    blue: "bg-blue-500 hover:bg-blue-700",
-    indigo: "bg-indigo-500 hover:bg-indigo-700",
-    darkBlue: "bg-dark-blue-500 hover:bg-dark-blue-700",
+      // Blues
+      sky: "bg-sky-500 hover:bg-sky-700",
+      blue: "bg-blue-500 hover:bg-blue-700",
+      indigo: "bg-indigo-500 hover:bg-indigo-700",
+      slate: "bg-slate-500 hover:bg-slate-700",
+    
+      // Reds
+      red: "bg-red-500 hover:bg-red-700",
+      rose: "bg-rose-500 hover:bg-rose-700",
+    
+      // Greens
+      green: "bg-green-500 hover:bg-green-700",
+      teal: "bg-teal-500 hover:bg-teal-700",
+    
+      // Yellows/Oranges
+      yellow: "bg-yellow-500 hover:bg-yellow-700",
+      orange: "bg-orange-500 hover:bg-orange-700",
+      amber: "bg-amber-500 hover:bg-amber-700",
+    
+      // Purples
+      purple: "bg-purple-500 hover:bg-purple-700",
+      violet: "bg-violet-500 hover:bg-violet-700",
+      fuchsia: "bg-fuchsia-500 hover:bg-fuchsia-700",
+    
+      // Greys
+      gray: "bg-gray-500 hover:bg-gray-700",
+      gray: "bg-gray-500 hover:bg-gray-700",
+      neutral: "bg-neutral-500 hover:bg-neutral-700",
+      stone: "bg-stone-500 hover:bg-stone-700",
+    
+      // Other colors
+      pink: "bg-pink-500 hover:bg-pink-700",
+      lime: "bg-lime-500 hover:bg-lime-700",
+      cyan: "bg-cyan-500 hover:bg-cyan-700",
+      emerald: "bg-emerald-500 hover:bg-emerald-700",
+    };
 
-    // Reds
-    red: "bg-red-500 hover:bg-red-700",
-    rose: "bg-rose-500 hover:bg-rose-700",
-
-    // Greens
-    green: "bg-green-500 hover:bg-green-700",
-    teal: "bg-teal-500 hover:bg-teal-700",
-
-    // Yellows/Oranges
-    yellow: "bg-yellow-500 hover:bg-yellow-700",
-    orange: "bg-orange-500 hover:bg-orange-700",
-    amber: "bg-amber-500 hover:bg-amber-700",
-
-    // Purples
-    purple: "bg-purple-500 hover:bg-purple-700",
-    violet: "bg-violet-500 hover:bg-violet-700",
-    fuchsia: "bg-fuchsia-500 hover:bg-fuchsia-700",
-
-    // Greys
-    gray: "bg-gray-500 hover:bg-gray-700",
-    coolGray: "bg-cool-gray-500 hover:bg-cool-gray-700",
-    trueGray: "bg-true-gray-500 hover:bg-true-gray-700",
-    warmGray: "bg-warm-gray-500 hover:bg-warm-gray-700",
-
-    // Other colors
-    pink: "bg-pink-500 hover:bg-pink-700",
-    lime: "bg-lime-500 hover:bg-lime-700",
-    cyan: "bg-cyan-500 hover:bg-cyan-700",
-    emerald: "bg-emerald-500 hover:bg-emerald-700",
-  };
 
   const sizeMapping = {
     extraSmall: "py-1 px-2 text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl",
