@@ -38,7 +38,6 @@ const KitButton = ({
     
       // Greys
       gray: "bg-gray-500 hover:bg-gray-700",
-      gray: "bg-gray-500 hover:bg-gray-700",
       neutral: "bg-neutral-500 hover:bg-neutral-700",
       stone: "bg-stone-500 hover:bg-stone-700",
     
