@@ -108,16 +108,13 @@ shadow="medium"
 
 Here are the available options for each prop:
 
-```javascript
-{
-  "ButtonText": "Submit", // (string, default: "Submit"): Sets the text of the button.
-  "onClick": "() => {}", // (function, default: () => {}): Sets the function to be called on click.
-  "color": "blue", // (string, default: "blue"): Sets the color of the button. Available options are "sky", "blue", "indigo", "slate", "red", "rose", "green", "teal", "yellow", "orange", "amber", "purple", "violet", "fuchsia", "gray", "neutral", "stone", "pink", "lime", "cyan", and "emerald".
-  "size": "medium", // (string, default: "medium"): Sets the size of the button. Available options are "extraSmall", "small", "medium", "large", "extraLarge", and "extraExtraLarge".
-  "weight": "medium", // (string, default: "medium"): Sets the font weight of the button. Available options are "thin", "extraLight", "light", "normal", "medium", "semibold", "bold", "extrabold", and "black".
-  "radius": "full", // (string, default: "full"): Sets the border radius of the button. Available options are "none", "small", "medium", "large", and "full".
-  "shadow": "medium" // (string, default: "medium"): Sets the shadow of the button. Available options are "none", "small", "medium", "large", and "xl".
-}
+- `ButtonText` (string, default: "Submit"): Sets the text of the button.
+- `onClick` (function, default:`() => {}`): Sets the function to be called on click.
+- `color` (string, default: "blue"): Sets the color of the button. Available options are "sky", "blue", "indigo", "slate", "red", "rose", "green", "teal", "yellow", "orange", "amber", "purple", "violet", "fuchsia", "gray", "neutral", "stone", "pink", "lime", "cyan", and "emerald".
+- `size` (string, default: "medium"): Sets the size of the button. Available options are "extraSmall", "small", "medium", "large", "extraLarge", and "extraExtraLarge".
+- `weight` (string, default: "medium"): Sets the font weight of the button. Available options are "thin", "extraLight", "light", "normal", "medium", "semibold", "bold", "extrabold", and "black".
+- `radius` (string, default: "full"): Sets the border radius of the button. Available options are "none", "small", "medium", "large", and "full".
+- `shadow` (string, default: "medium"): Sets the shadow of the button. Available options are "none", "small", "medium", "large", and "xl".
 
 
 # Future Plans
